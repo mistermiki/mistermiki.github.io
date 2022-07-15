@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Web Page</h1>
+<p>My First Paragraph</p>
+
+<p id="demo"></p>
+
+<script>
+
+    document.getElementById("demo").innerHTML = 5 + 6; //This needs an element refered to by id
+
+    document.write(5 + 6); //Using document.write() after an HTML document is loaded, will delete all existing HTML"
+    /*e.g. like this: <button type="button" onclick="document.write(5 + 6)">Try it</button>*/
+
+    window.alert(5 + 6); //pop up window TERRIBLE!
+    alert(5 + 6); //also in a short form
+
+    console.log(5 + 6); //prints output to the browser console
+
+    <button onclick="window.print()">Print this page</button> //opens a system window to print webpage
+
+</script>
+
+</body>
+
+</html>
